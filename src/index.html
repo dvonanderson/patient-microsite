@@ -82,13 +82,18 @@
         <div class="row gx-5">
           <div class="col p-3">
             <div class="d-flex flex-column">
+
+              <!-- Instead of hard codinig the src image, we could use stimulus to dynamically insert the next large image after the user clicks the thumbnail -->
+
               <img src="./images/photo_1_large.png" alt="" srcset="">
               <h3 class="mt-1">Martha's Journey to Weight Loss</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quisquam, illo aut tempora rerum est necessitatibus natus porro consequatur placeat, dolore aliquam unde! Autem rem, eos at adipisci asperiores impedit.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias accusantium culpa voluptas quos repellendus iusto esse rerum saepe, molestiae pariatur illum! Odit fugit hic mollitia tempora qui dignissimos, tenetur at optio ipsam modi perferendis inventore blanditiis maiores labore repellendus earum!</p>
             </div>
           </div>
-          <div class="col p-2 bg-white">
+
+          <!-- Use the active class and some javascript to push this class on the clicked thumbnail -->
+          <div class="col p-2 bg-white active">
             <div class="row gx-2 my-2">
               <div class="col-sm-5">
                 <img src="./images/photo_1_small.png" alt="marthas thumbnail">
